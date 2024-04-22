@@ -36,8 +36,8 @@ export default function Navbar() {
                             <div className="flex-1 flex items-center justify-between sm:items-stretch">
                                 <div className="flex-shrink-0 flex items-center">
                                     <Link to="/" className="text-xl hide-tap-color text-black font-bold">
-                                        My
-                                        <span className="text-green-500">Quran</span>
+                                    Quran&nbsp;
+                                        <span className="text-green-500">Karim</span>
                                     </Link>
                                 </div>
                                 <div className="hidden sm:block sm:ml-6">

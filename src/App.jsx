@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Container from "./components/Container";
 import Home from "./pages/Home";
 import SurahDetail from "./pages/SurahDetail";
+import Support from "./pages/Support";
  
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home page="home" />} />  
                 <Route path="/surah/:number" element={<SurahDetail />} />
-              {/*     <Route path="/surah/favorites" element={<Surah page="favorites" />} />
-              <Route path="/surah/:number" element={<SurahDetail />} />
-              <Route path="/support" element={<Support />} /> */}
+                <Route path="/surah/favorites" element={<Home page="favorites" />} />
+              {/* 
+              <Route path="/surah/favorites" element={<Surah page="favorites" />} />*/}
+               <Route path="/support" element={<Support />} /> 
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

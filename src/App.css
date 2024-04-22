@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+/* .audio.murottals-audio
+{
+  position: fixed;  
+    opacity: 1;    width: 100%;    inset-block-end: 0;   
+     text-align: center;    background: var(--color-background-default); 
+        transition: var(--transition-regular);    
+        z-index: var(--z-index-sticky);    
+        box-shadow: var(--shadow-large); 
+           border-block-start: 1px solid var(--color-borders-hairline);  
+             height: 3.5rem;    will-change: transform;
+            }
+  */
